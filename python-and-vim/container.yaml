@@ -1,14 +1,7 @@
-# replaced docker: with gh:
-gh: ghcr.io/enrikok/nuildcache-enrikokr-login1.hpc.ut.ee
-maintainer: "@EnrikoK"
-description: A container registry for Python and Vim utilities
-
+docker: registry.hpc.ut.ee/container-test/python-test
+maintainer: UTHPC
+description: Container for python-test
 latest:
-  python-and-vim: sha256:2b1379da880af77859142370c82db0868f05b70a69581196e5a7f0b211fb34f2
-
+  3.11.2: sha256:35c714911729fa9cf5d711cea02a72030e9267f61eeb4b165f8054ca3706cd8b
 tags:
-  python-and-vim: sha256:2b1379da880af77859142370c82db0868f05b70a69581196e5a7f0b211fb34f2
-
-aliases:
-  python: /usr/local/bin/python
-  vim: /usr/local/bin/vim
+  3.11.2: sha256:35c714911729fa9cf5d711cea02a72030e9267f61eeb4b165f8054ca3706cd8b
